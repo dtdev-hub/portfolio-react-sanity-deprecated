@@ -35,6 +35,12 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
+// my additional images
+import kmy_logo from '../assets/kimetsu_no_yaiba_logo.png';
+import thunder_breathing_1 from '../assets/thunder_breathing_1.png';
+import thunder_breathing_3 from '../assets/thunder_breathing_3.png';
+import zenitsu_agatsuma_portrait from '../assets/zenitsu_agatsuma_portrait.jpg';
+
 export default {
     email,
     mobile,
@@ -69,4 +75,9 @@ export default {
     nb,
     skype,
     spotify,
+
+    kmy_logo,
+    thunder_breathing_1,
+    thunder_breathing_3,
+    zenitsu_agatsuma_portrait,
 };
