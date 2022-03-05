@@ -32,10 +32,10 @@ const Header = () => {
                             <h1 className='head-text'>dt-japanscript</h1>
                         </div>
                     </div>
-                    <div className='tag-cmp app__flex'>
+                    {/* <div className='tag-cmp app__flex'>
                         <p className='p-text'>CAD Engineer</p>
                         <p className='p-text'>CAE Engineer</p>
-                    </div>
+                    </div> */}
                 </div>
             </motion.div>
 
@@ -59,7 +59,7 @@ const Header = () => {
                 whileInView={scaleVariants.whileInView}
                 className='app__header-circles'
             >
-                {[images.thunder_breathing_1, images.kmy_logo, images.thunder_breathing_3].map((circle, index) => (
+                {[images.javascript, images.python, images.react].map((circle, index) => (
                     <div className='circle-cmp app__flex' key={`circle-${index}`}>
                         <img src={circle} alt='profile_bg' />
                     </div>
