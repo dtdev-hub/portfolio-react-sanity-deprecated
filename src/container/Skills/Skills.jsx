@@ -10,6 +10,8 @@ const Skills = () => {
 
     const [experience, setExperience] = useState([]);
     const [skills, setSkills] = useState([]);
+    const myExp = [].concat(experience)
+        .sort((a, b) => a.year < b.year ? 1 : -1);
 
     useEffect(() => {
         const query = '*[_type == "experiences"]';
@@ -48,7 +50,7 @@ const Skills = () => {
                 </motion.div>
 
                 <motion.div className='app__skills-exp'>
-                    {experience?.map((experience) => (
+                    {myExp?.map((experience) => (
                         <motion.div
                             className='app__skills-exp-item'
                             key={experience.year}
