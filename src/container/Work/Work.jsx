@@ -39,7 +39,7 @@ const Work = () => {
     return (
         <>
             <h2 className='head-text'>
-                My Creative <span>Portfolio</span> Section
+                My <span>Portfolio</span> Section
             </h2>
             <div className="app__work-filter">
                 {['ANSA', 'Bootstrap', 'ReactJS', 'All'].map((item, index) => (

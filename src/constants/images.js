@@ -36,7 +36,7 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
 // my additional images
-import zenitsu_agatsuma_portrait from '../assets/zenitsu_agatsuma_portrait.jpg';
+import IMG_6138_1 from '../assets/IMG_6138_1.jpg';
 
 // additional work images
 import honda_logo from '../assets/honda-logo.png';
@@ -77,7 +77,7 @@ export default {
     skype,
     spotify,
 
-    zenitsu_agatsuma_portrait,
+    IMG_6138_1,
     honda_logo,
     udemy_logo,
 };
